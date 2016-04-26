@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemePlus" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme" parent="AppThemePlus">
+    </style>
+    <style name="DrawerLayoutTheme" parent="AppTheme"></style>
+    <style name="CardView.Content" parent="android:Widget">
+    <item name="android:paddingLeft">16dp</item>
+    <item name="android:paddingRight">16dp</item>
+    <item name="android:paddingTop">24dp</item>
+    <item name="android:paddingBottom">24dp</item>
+    <item name="android:orientation">vertical</item>
+</style>
+    <style name="ViewText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="DrawerNameText" parent="ViewText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.Tabs" parent="AppTheme">
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/titleTextColor</item>
+    </style>
+
+    <style name="TitleExpanded" parent="Title">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="TitleCollapsed" parent="Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
